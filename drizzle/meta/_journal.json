@@ -8,6 +8,13 @@
       "when": 1742646716603,
       "tag": "0000_fluffy_omega_sentinel",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1742656947786,
+      "tag": "0001_flimsy_lady_deathstrike",
+      "breakpoints": true
     }
   ]
 }
