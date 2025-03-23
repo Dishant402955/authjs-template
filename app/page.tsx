@@ -5,7 +5,7 @@ import DeleteAccount from "@/components/ui/delete-account";
 
 export default function Home() {
   return (
-    <div className="w-screen flex flex-col justify-center items-center m-10 gap-y-4">
+    <div className="w-full flex flex-col justify-center items-center m-10 gap-y-4">
       <SignIn />
       <UserAvatar />
       <SignOut />
