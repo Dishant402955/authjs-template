@@ -9,6 +9,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="w-full flex flex-col justify-center items-center m-10 gap-y-4">
+      <Link href={"https://dishant.is-a.dev"} target="_blank">
+        <Button>My Portfolio</Button>
+      </Link>
       <SignedIn>
         <UserAvatar />
         <SignOut />
