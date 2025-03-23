@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { auth } from "@/auth";
+import { auth, signOut } from "@/auth";
 import { deleteUser } from "@/db/crud";
 
 export default async function DeleteAccont() {
@@ -12,6 +12,7 @@ export default async function DeleteAccont() {
       action={async () => {
         "use server";
         await deleteUser(session.user!.email!);
+        await signOut();
       }}
     >
       <Button type="submit">Delete Account</Button>
